@@ -1,0 +1,15 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class Zapis {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		PrintWriter zapis = new PrintWriter("ala.txt");
+		
+		zapis.println("qwertyzxcv");
+		zapis.close();
+		
+
+	}
+
+}
